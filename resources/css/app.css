@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.pg-actions {
+    @apply flex
+}
+
+.pointer-events-none svg {
+    @apply hidden
+}
